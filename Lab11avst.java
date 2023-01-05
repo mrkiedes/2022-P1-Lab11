@@ -23,6 +23,16 @@ public class Lab11avst
     {
         System.out.println("\nCOMPUTING PRIME NUMBERS");
 
+        // Step 1: Set all array values to true
+        for(int k = 2; k < primes.length; k++){
+            // Set all the values to true
+
+        }
+
+        // Step 2: Removing multiples of primes
+        // Hint: Nested Loop
+
+
     }
 
     public static void displayPrimes(boolean primes[])
@@ -30,6 +40,12 @@ public class Lab11avst
         System.out.println("\n\nPRIMES BETWEEN 1 AND "+ primes.length);
         System.out.println();
 
+        for(int k = 2; k < primes.length; k++) {
+            // Check if primes is true
+            if(primes[k] == true) {
+                System.out.print(k + " ");
+            }
+        }
     }
 
 }
